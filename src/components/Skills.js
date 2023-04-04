@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import AnimatedText from "./AnimatedText";
 
 const Skill = ({name, x, y}) => {
 	return(
@@ -18,7 +19,8 @@ const Skill = ({name, x, y}) => {
 const Skills = () => {
 	return (
 		<>
-			<h2 className="font-bold text-6xl mt-64 w-full text-center">Skills</h2>
+			<AnimatedText text="Skills" className="!font-bold !text-6xl !mt-64 !w-full !text-center" />
+			{/* <h2 className="font-bold text-6xl mt-64 w-full text-center">Skills</h2> */}
 			<div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight">
 				<motion.div className="flex items-center justify-center rounded-full font-semibold bg-dark text-light p-5 shadow-dark cursor-pointer" whileHover={{scale:1.05}}>Web</motion.div>
 				<Skill name="HTML" x="-20vw" y="2vw" />
