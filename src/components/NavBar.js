@@ -32,11 +32,11 @@ const NavBar = () => {
             </nav>
 
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a href="/" target={"_blank"} className='w-7 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={github} alt='github' /></motion.a>
-                <motion.a href="/" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={linkedin} alt='github' /></motion.a>
-                <motion.a href="/" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={blogger} alt='github' /></motion.a>
-                <motion.a href="/" target={"_blank"} className='w-8 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={instagram} alt='github' /></motion.a>
-                <motion.a href="/" target={"_blank"} className='w-7 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={facebook} alt='github' /></motion.a>
+                <motion.a href="https://github.com/TharishaPerera" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={github} alt='github' /></motion.a>
+                <motion.a href="https://www.linkedin.com/in/tharisha-perera" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={linkedin} alt='linkedin' /></motion.a>
+                <motion.a href="/blog" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={blogger} alt='blog' /></motion.a>
+                <motion.a href="https://www.instagram.com/___t.h.a.r.i.y.a___/" target={"_blank"} className='w-8 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={instagram} alt='instagram' /></motion.a>
+                <motion.a href="https://www.facebook.com/profile.php?id=100007492698410" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={facebook} alt='facebook' /></motion.a>
                 
                 {/* <motion.a href="/" target={"_blank"} className='w-5 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><GithubIcon /></motion.a>
                 <motion.a href="/" target={"_blank"} className='w-5 mx-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><LinkedInIcon /></motion.a>
