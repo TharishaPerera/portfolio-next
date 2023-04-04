@@ -32,11 +32,11 @@ const NavBar = () => {
             </nav>
 
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a href="/" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={github} alt='github' /></motion.a>
+                <motion.a href="/" target={"_blank"} className='w-7 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={github} alt='github' /></motion.a>
                 <motion.a href="/" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={linkedin} alt='github' /></motion.a>
                 <motion.a href="/" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={blogger} alt='github' /></motion.a>
                 <motion.a href="/" target={"_blank"} className='w-8 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={instagram} alt='github' /></motion.a>
-                <motion.a href="/" target={"_blank"} className='w-6 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={facebook} alt='github' /></motion.a>
+                <motion.a href="/" target={"_blank"} className='w-7 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><Image src={facebook} alt='github' /></motion.a>
                 
                 {/* <motion.a href="/" target={"_blank"} className='w-5 mr-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><GithubIcon /></motion.a>
                 <motion.a href="/" target={"_blank"} className='w-5 mx-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><LinkedInIcon /></motion.a>
