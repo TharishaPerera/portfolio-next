@@ -40,12 +40,12 @@ const about = () => {
             <title>About | Tharisha Perera</title>
             <meta name='description' content='Tharisha Perera personal portfolio website' />
         </Head>
-        <main className='flex w-full flex-col items-center justify-center'>
+        <main className='flex w-full flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText text="Passion Fuels Purpose!" className="!text-7xl mb-16" />
                 <div className='grid w-full grid-cols-6 gap-16'>
                     <div className='col-span-2 flex flex-col items-start justify-start'>
-                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Biography</h2>
+                        <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                         <p className='font-medium'>
                             Hi, I'm Tharisha Perera, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
                             and user-centered digital experiences. With more than 1 year of experience in the field. I am always looking for 
@@ -62,9 +62,9 @@ const about = () => {
                         </p>
                     </div>
 
-                    <div className='col-span-2 flex flex-col items-center justify-center relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-4'>
-                        <div className='absolute top-0 -right-2 -z-10 w-[102%] h-[102%] rounded-2xl bg-dark' />
-                        <Image src={profilePic} alt='Tharisha Perera' className='w-full h-auto rounded-2xl' />
+                    <div className='col-span-2 flex flex-col items-center justify-center relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light p-4'>
+                        <div className='absolute top-0 -right-2 -z-10 w-[102%] h-[102%] rounded-2xl bg-dark dark:bg-light' />
+                        <Image src={profilePic} alt='Tharisha Perera' className='w-full h-auto rounded-2xl' priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
                     </div>
 
                     <div className='col-span-2 flex flex-col items-end justify-between pr-20 border-r-2 border-solid '>
@@ -72,19 +72,19 @@ const about = () => {
                             <span className='inline-block text-6xl font-bold'>
                                 <AnimatedNumbers value={50} />+
                             </span>
-                            <h2 className='text-lg font-medium capitalize text-dark/75'>Satisfied clients</h2>
+                            <h2 className='text-lg font-medium capitalize text-dark/75 dark:text-light/75'>Satisfied clients</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center'>
                             <span className='inline-block text-6xl font-bold'>
                                 <AnimatedNumbers value={40} />+
                             </span>
-                            <h2 className='text-lg font-medium capitalize text-dark/75'>Projects completed</h2>
+                            <h2 className='text-lg font-medium capitalize text-dark/75 dark:text-light/75'>Projects completed</h2>
                         </div>
                         <div className='flex flex-col items-end justify-center mb-10'>
                             <span className='inline-block text-6xl font-bold'>
                                 <AnimatedNumbers value={3} />+
                             </span>
-                            <h2 className='text-lg font-medium capitalize text-dark/75'>years of experience</h2>
+                            <h2 className='text-lg font-medium capitalize text-dark/75 dark:text-light/75'>years of experience</h2>
                         </div>
                     </div>
                 </div>

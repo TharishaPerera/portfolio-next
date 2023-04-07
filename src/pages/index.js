@@ -18,11 +18,11 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className="flex items-center text-dark w-full min-h-screen">
+			<main className="flex items-center text-dark w-full min-h-screen dark:text-light">
 				<Layout className="pt-0">
 					<div className="flex items-center justify-between w-full">
 						<div className="w-1/2">
-							<Image src={profilePic} alt="Tharisha Perera" className="w-full h-auto" />
+							<Image src={profilePic} alt="Tharisha Perera" className="w-full h-auto" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"/>
 						</div>
 						<div className="w-1/2 flex flex-col items-center self-center">
 							<AnimatedText text="Turning Vision Into Reality With Code And Design." className="!text-6xl !text-left"/>
@@ -31,11 +31,11 @@ export default function Home() {
 								Explore my latest projects and articles, showcasing my expertise in React.js and web development.
 							</p>
 							<div className="flex items-center self-start mt-2">
-								<Link href="/dummy.pdf" target="_blank" className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark duration-500" download={true}>
+								<Link href="/dummy.pdf" target="_blank" className="flex items-center bg-dark dark:bg-light text-light dark:text-dark p-2.5 px-6 rounded-lg font-semibold hover:bg-light hover:text-dark border border-solid border-transparent hover:border-dark duration-500 hover:dark:bg-dark hover:dark:text-light hover:dark:border-light" download={true}>
 									Resume 
 									{/* <LinkArrow className={"w-5 ml-1"} /> */}
 								</Link>
-								<Link href="mailto:tharishaperera@gmail.com" target="_blank" className="ml-4 font-medium capitalize text-dark font-semibold">
+								<Link href="mailto:tharishaperera@gmail.com" target="_blank" className="ml-4 font-medium capitalize text-dark font-semibold dark:text-light">
 									Contact Me
 								</Link>
 							</div>

@@ -5,7 +5,7 @@ import { LinkArrow } from './Icons'
 
 const Footer = () => {
   return (
-    <footer className='w-full border-t-2 border-solid font-medium'>
+    <footer className='w-full border-t-2 border-solid font-medium dark:text-light dark:border-light/30'>
         <Layout className='py-8 flex items-center justify-between'>
             <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
             <div className='flex items-center'>
