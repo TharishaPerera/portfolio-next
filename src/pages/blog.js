@@ -8,6 +8,7 @@ import blog1 from "../../public/images/articles/pagination component in reactjs.
 import { motion, useMotionValue } from "framer-motion";
 
 import blogImg from "../../public/images/articles/create modal component in react using react portals.png";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -112,6 +113,7 @@ const blog = () => {
           content="Tharisha Perera personal portfolio website"
         />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
