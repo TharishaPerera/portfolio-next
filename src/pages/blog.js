@@ -95,7 +95,7 @@ const FeaturedBlog = ({ img, title, time, summary, link }) => {
           {title}
         </h2>
       </Link>
-      <p className="text-sm mb-2 xs:hidden">{summary}</p>
+      <p className="text-sm mb-2 xs:hidden hidden">{summary}</p>
       <span className="w-ful text-primary font-semibold flex items-end justify-end mt-4 dark:text-primaryDark">
         {time}
       </span>
