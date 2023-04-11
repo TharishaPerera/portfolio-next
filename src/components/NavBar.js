@@ -102,7 +102,7 @@ const NavBar = () => {
             {
                 isOpen ?
 
-                <motion.div className='min-w-[70vw] flex flex-col z-30 justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32'
+                <motion.div className='min-w-[70vw] flex flex-col z-30 justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-16'
                     initial={{scale:0, opacity:0, x:"-50%", y:"-50%"}}
                     animate={{scale:1, opacity:1, transition:{duration:0.3, ease:'easeInOut'}}}
                 >
@@ -127,7 +127,7 @@ const NavBar = () => {
                         <motion.a href="/" target={"_blank"} className='w-5 ml-2' whileHover={{y:-2}} whileTap={{scale:0.9}}><DribbbleIcon /></motion.a> */}
 
                         <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                            className={`ml-3 flex items-center justify-center rounded-full p-1
+                            className={`ml-3 flex items-center justify-center rounded-full p-1 w-8 h-8
                             ${mode === "light" ? "text-light" : " text-dark"}
                             `}
                         >
